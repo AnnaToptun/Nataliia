@@ -1,38 +1,163 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #0d6efd;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #0d6efd;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Container {
+    background: url(fon.jpg);
+}
+
+.card {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(4, 112, 131);
+    font-size: 25px;
+    background-color: rgb(253, 253, 253);
+}
+
+.tabs {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.h1 {
+    background-color: white;
+    color: rgb(3, 41, 48);
+    font-size: 45px;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+    border-bottom: 3px solid rgb(35, 153, 173);
+    font-weight: bold;
+}
+
+.col {
+    border-bottom: 3px solid #0d6efd;
+    border-left: 3px solid #0d6efd;
+}
+
+.ul {
+    background-color: #fff;
+    font-size: 25px;
+    padding: 60px;
+    text-indent: 1em;
+    border-bottom: 3px solid #0d6efd;
+}
+
+.text {
+    text-indent: 1em;
+}
+
+.logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.logonata {
+    float: center;
+    width: 100%;
+    border: 3px solid #0d6efd;
+}
+
+.text-p {
+    text-indent: 1em;
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 3px solid #0d6efd;
+    margin: 15px;
+    background-color: #fff;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.text-p:hover {
+    background-color: #dfcfcf;
+}
+
+.Row {
+    display: flex;
+}
+
+@media only screen and (max-width: 650px) {
+    .Row {
+        display: flow-root;
+    }
+    .Container {
+        background: #0d6efd;
+    }
+    .text-p {
+        text-indent: 1em;
+        font-size: 20px;
+        padding: 5px;
+        border-bottom: 3px solid #0d6efd;
+        margin: 15px;
+        background-color: #fff;
+        height: 70px;
+        width: 80%;
+        text-align: center;
+    }
+    .h1 {
+        background-color: white;
+        color: rgb(3, 41, 48);
+        font-size: 35px;
+        padding: 5px;
+        margin: 1px;
+        text-align: center;
+        border-bottom: 3px solid #0d6efd;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .ul {
+        background-color: #fff;
+        font-size: 15px;
+        padding: 40px;
+        text-indent: 5px;
+        border-bottom: 3px solid #0d6efd;
+    }
+    .logo {
+        float: left;
+        width: 45px;
+        height: 45px;
+        margin-left: 20px;
+    }
 }
