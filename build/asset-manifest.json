@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eebef54c.chunk.css",
+    "main.js": "/static/js/main.f07fa8c6.chunk.js",
+    "main.js.map": "/static/js/main.f07fa8c6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5fac7c29.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5fac7c29.js.map",
+    "static/js/2.af3b75d9.chunk.js": "/static/js/2.af3b75d9.chunk.js",
+    "static/js/2.af3b75d9.chunk.js.map": "/static/js/2.af3b75d9.chunk.js.map",
+    "static/js/3.edc33370.chunk.js": "/static/js/3.edc33370.chunk.js",
+    "static/js/3.edc33370.chunk.js.map": "/static/js/3.edc33370.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.eebef54c.chunk.css.map": "/static/css/main.eebef54c.chunk.css.map",
+    "static/js/2.af3b75d9.chunk.js.LICENSE.txt": "/static/js/2.af3b75d9.chunk.js.LICENSE.txt",
+    "static/media/Nata.b5cb7614.jpg": "/static/media/Nata.b5cb7614.jpg",
+    "static/media/App.css": "/static/media/fon.7f560868.jpg",
+    "static/media/ig.8813ee4d.png": "/static/media/ig.8813ee4d.png",
+    "static/media/logonata.40526a3b.png": "/static/media/logonata.40526a3b.png",
+    "static/media/ph.8da6aa6d.png": "/static/media/ph.8da6aa6d.png",
+    "static/media/tg.2421a217.png": "/static/media/tg.2421a217.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fac7c29.js",
+    "static/js/2.af3b75d9.chunk.js",
+    "static/css/main.eebef54c.chunk.css",
+    "static/js/main.f07fa8c6.chunk.js"
+  ]
+}
